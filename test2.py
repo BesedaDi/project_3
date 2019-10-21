@@ -1,8 +1,8 @@
 # Система распознования пароля, введеного пользователем
 password = int(input())
-s = 0
+s=0
 while s < password:
-    s = s + 1
+    s=s + 1
 a=[password, s]
 for i in a:
     print(i)
